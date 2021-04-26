@@ -113,6 +113,10 @@ public class Responder
                         "Ahhh, BlueJ, yes. We tried to buy out those guys long ago, but\n" +
                         "they simply won't sell... Stubborn people they are. Nothing we can\n" +
                         "do about it, I'm afraid.");
+        responseMap.put("read",
+                        "File reading can be done through many ways across your system. Some\n" +
+                        "are more difficult to access than others. Go to your system's\n" +
+                        "settings for more details.");
     }
 
     /**
