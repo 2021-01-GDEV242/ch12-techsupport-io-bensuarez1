@@ -68,55 +68,83 @@ public class Responder
     private void fillResponseMap()
     {
         responseMap.put("crash", 
+                        " \n" +
                         "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+                        "to do with your system. Tell me more about your configuration.\n" +
+                        " ");
         responseMap.put("crashes", 
+                        " \n" +
                         "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+                        "to do with your system. Tell me more about your configuration.\n" +
+                        " ");
         responseMap.put("slow", 
+                        " \n" +
                         "I think this has to do with your hardware. Upgrading your processor\n" +
                         "should solve all performance problems. Have you got a problem with\n" +
-                        "our software?");
+                        "our software?\n" +
+                        " ");
         responseMap.put("performance", 
+                        " \n" +
                         "Performance was quite adequate in all our tests. Are you running\n" +
-                        "any other processes in the background?");
+                        "any other processes in the background?\n" +
+                        " ");
         responseMap.put("bug", 
+                        " \n" +
                         "Well, you know, all software has some bugs. But our software engineers\n" +
                         "are working very hard to fix them. Can you describe the problem a bit\n" +
-                        "further?");
+                        "further?\n" +
+                        " ");
         responseMap.put("buggy", 
+                        " \n" +
                         "Well, you know, all software has some bugs. But our software engineers\n" +
                         "are working very hard to fix them. Can you describe the problem a bit\n" +
-                        "further?");
+                        "further?\n" +
+                        " ");
         responseMap.put("windows", 
+                        " \n" +
                         "This is a known bug to do with the Windows operating system. Please\n" +
-                        "report it to Microsoft. There is nothing we can do about this.");
+                        "report it to Microsoft. There is nothing we can do about this.\n" +
+                        " ");
         responseMap.put("macintosh", 
+                        " \n" +
                         "This is a known bug to do with the Mac operating system. Please\n" +
-                        "report it to Apple. There is nothing we can do about this.");
+                        "report it to Apple. There is nothing we can do about this.\n" +
+                        " ");
         responseMap.put("expensive", 
+                        " \n" +
                         "The cost of our product is quite competitive. Have you looked around\n" +
-                        "and really compared our features?");
+                        "and really compared our features?\n" +
+                        " ");
         responseMap.put("installation", 
+                        " \n" +
                         "The installation is really quite straight forward. We have tons of\n" +
                         "wizards that do all the work for you. Have you read the installation\n" +
-                        "instructions?");
+                        "instructions?\n" +
+                        " ");
         responseMap.put("memory", 
+                        " \n" +
                         "If you read the system requirements carefully, you will see that the\n" +
                         "specified memory requirements are 1.5 giga byte. You really should\n" +
-                        "upgrade your memory. Anything else you want to know?");
-        responseMap.put("linux", 
+                        "upgrade your memory. Anything else you want to know?\n" +
+                        " ");
+        responseMap.put("linux",
+                        " \n" +
                         "We take Linux support very seriously. But there are some problems.\n" +
                         "Most have to do with incompatible glibc versions. Can you be a bit\n" +
-                        "more precise?");
+                        "more precise?\n" +
+                        " ");
         responseMap.put("bluej", 
+                        " \n" +
                         "Ahhh, BlueJ, yes. We tried to buy out those guys long ago, but\n" +
                         "they simply won't sell... Stubborn people they are. Nothing we can\n" +
-                        "do about it, I'm afraid.");
+                        "do about it, I'm afraid.\n" +
+                        " ");
         responseMap.put("read",
+                        " \n" +
                         "File reading can be done through many ways across your system. Some\n" +
                         "are more difficult to access than others. Go to your system's\n" +
-                        "settings for more details.");
+                        "settings for more details.\n" +
+                        " ");
     }
 
     /**
